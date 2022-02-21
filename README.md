@@ -55,6 +55,11 @@ frontend
     views/               contains view files for the Web application
     web/                 contains the entry script and Web resources
     widgets/             contains frontend widgets
+react
+    build/               contains static source for react application
+        static/          contains react application assets such as JavaScript and CSS
+    public/              contains public sources
+    src/                 contains components and another main sources
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
