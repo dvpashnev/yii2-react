@@ -1,0 +1,66 @@
+{
+  "name": "react-2022-01-14",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001/",
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "concurrently": "^7.0.0",
+    "connected-react-router": "^6.9.2",
+    "immer": "^9.0.12",
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "5",
+    "react-scripts": "5.0.0",
+    "react-transition-group": "^4.4.2",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "reselect": "^4.1.5",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "import/no-anonymous-default-export": 0,
+      "testing-library/no-render-in-setup": 0,
+      "testing-library/render-result-naming-convention": 0
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.6",
+    "enzyme": "^3.11.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.5.1",
+    "pretty-quick": "^3.1.3"
+  }
+}
